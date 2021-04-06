@@ -19,8 +19,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          {/* How to make a drop down arrow menu with bootstrap */}
-{/*           <li className="nav-item">
+{/*           <li className="nav-item dropdown">
             <Link
               to="/discover"
               className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
@@ -43,3 +42,19 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+
+
+<Dropdown>
+  <Dropdown.Toggle variant="success" id="dropdown-basic">
+    Portfolio
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">Collaborations</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">Applications</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Websites</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Personal Projects</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
