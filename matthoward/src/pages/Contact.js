@@ -6,27 +6,14 @@ import Col from "../components/Col";
 function Contact() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero>
-      <Container style={{ marginTop: 30 }}>
+      <Container>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
+            <h1>Contact Me</h1>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
-              Lorem 
-            </p>
-            <p>
-              Phasellus 
-            </p>
-            <p>
-              Etiam
-            </p>
           </Col>
         </Row>
       </Container>
