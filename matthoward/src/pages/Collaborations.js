@@ -9,7 +9,7 @@ function Collaborations() {
       <Container>
         <Row>
           <Col size="md-12">
-            <h1>Collaboration Projects</h1>
+            <h1>Collaborations</h1>
           </Col>
         </Row>
         <Row>
