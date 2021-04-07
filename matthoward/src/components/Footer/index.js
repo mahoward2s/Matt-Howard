@@ -1,14 +1,16 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
 import "./style.css";
 
 function Footer() {
   return (
-<Navbar bg="dark" variant="dark" expand="lg" fixed="bottom">
-  <Navbar.Brand id="footer">Website By: Mahoward2s</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
-</Navbar>
+    <Navbar className="justify-content-center" bg="dark" variant="primary" expand="lg" fixed="bottom">
+        <Navbar.Brand id="footer"></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
+        <Nav className="justify-content-center">Website By: Mahoward2s</Nav>
+    </Navbar>
   );
 }
 

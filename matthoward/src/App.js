@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Applications from "./pages/Applications";
 import Collaborations from "./pages/Collaborations";
@@ -17,13 +17,29 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/applications" component={Applications} />
-          <Route exact path="/collaborations" component={Collaborations} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/personalprojects" component={PersonalProjects} />
-          <Route exact path="/websites" component={Websites} />
+          <Switch>
+          <Route exact path={["/","/home"]}> 
+          <Home />
+          </Route>
+          <Route exact path={["/about"]}> 
+          <About />
+          </Route>
+          <Route exact path={["/applications"]}> 
+          <Applications />
+          </Route>
+          <Route exact path={["/collaborations"]}> 
+          <Collaborations />
+          </Route>
+          <Route exact path={["/contact"]}> 
+          <Contact />
+          </Route>
+          <Route exact path={["/personalprojects"]}> 
+          <PersonalProjects />
+          </Route>
+          <Route exact path={["/websites"]}> 
+          <Websites />
+          </Route>
+          </Switch>
         </Wrapper>
         <Footer />
       </div>

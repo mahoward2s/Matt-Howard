@@ -8,7 +8,9 @@ function About() {
         <div>
             <Container>
                 <Row>
-                    <Col></Col>
+                    <Col>
+                    <h1>About Me</h1>
+                    </Col>
                 </Row>
                 <Row>
                     <Col></Col>

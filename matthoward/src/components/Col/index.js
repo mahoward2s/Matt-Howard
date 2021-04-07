@@ -1,9 +1,10 @@
 import React from "react";
+import Col from "react-bootstrap/Col"
 
-function Col(props) {
+function Column(props) {
   const size = props.size.split(" ").map(size => "col-" + size).join(" ");
 
   return <div className={size}>{props.children}</div>;
 }
 
-export default Col;
+export default Column;
