@@ -14,7 +14,7 @@ function NavigationBar() {
     <Nav className="mr-auto">
       <Nav.Link href="/about">About</Nav.Link>
       <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/collaborations">Collaboration</NavDropdown.Item>
+        <NavDropdown.Item href="/collaborations">Collaborations</NavDropdown.Item>
         <NavDropdown.Item href="/applications">Applications</NavDropdown.Item>
         <NavDropdown.Item href="/websites">Websites</NavDropdown.Item>
         <NavDropdown.Divider />
