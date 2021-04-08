@@ -1,16 +1,18 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Applications() {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col size="md-12">
+      <Container className="justify-content-center">
+        <Row
+        className="text-center">
+          <Col 
+          size="md-12">
             <h1>Applications</h1>
           </Col>
         </Row>

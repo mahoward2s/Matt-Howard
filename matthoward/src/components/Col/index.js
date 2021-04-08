@@ -1,5 +1,4 @@
 import React from "react";
-import Col from "react-bootstrap/Col"
 
 function Column(props) {
   const size = props.size.split(" ").map(size => "col-" + size).join(" ");
