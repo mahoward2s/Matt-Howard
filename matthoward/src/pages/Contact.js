@@ -10,34 +10,57 @@ import Col from 'react-bootstrap/Col';
 function Contact() {
   return (
     <div>
-      <Container>
-        <Row>
+      <Container className="justify-content-center">
+        <Row className="text-center">
           <Col size="md-12">
             <h1>Contact Me</h1>
           </Col>
         </Row>
-        <Row>
-          <Col size="md-12">
-          <Card style={{ width: '18rem' }}>
+        <Row className="justify-content-center">
+          <Card
+            className="text-center"
+            style={{ width: '40rem' }}>
             <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+              <Card.Title>Matthew Howard</Card.Title>
+              <Card.Text>
+                Feel Free To Reach Out Anytime.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+              <ListGroupItem>Profiles:</ListGroupItem>
+              <ListGroupItem>
+                <Button
+                  href="https://github.com/mahoward2s"
+                  target="_blank"
+                  variant="primary">GitHub</Button>
+                <Button
+                  href="https://www.linkedin.com/in/matthew-h-974498108/"
+                  target="_blank"
+                  variant="info">LinkedIn</Button>
+              </ListGroupItem>
+              <ListGroupItem>Contact:</ListGroupItem>
+              <ListGroupItem>
+                <Button
+                  href="mailto:<nowiki>mahoward2s@gmail.com?subject=' Contact From Portfolio'"
+                  target="_blank"
+                  variant="primary">Email</Button>
+                <Button href="tel:3146245710"
+                  variant="info">Phone</Button>
+              </ListGroupItem>
+              <ListGroupItem>Resume:</ListGroupItem>
+              <ListGroupItem>
+                <Button
+                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" variant="primary">Google Doc</Button>
+                <Button
+                  variant="info"
+                  href="./public/images/Matt_Howard_Resume.pdf"
+                  target="_blank" class="btn btn-warning"
+                  download><i
+                    class="fa fa-download"></i>PDF</Button>
+              </ListGroupItem>
             </ListGroup>
-            <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-            </Card.Body>
-        </Card>
-          </Col>
+          </Card>
         </Row>
       </Container>
     </div>
