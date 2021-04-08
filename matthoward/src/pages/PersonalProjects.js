@@ -12,6 +12,7 @@ function PersonalProjects() {
         </Row>
         <Row>
           <Col size="md-12">
+            <h1>Coming Soon!!</h1>
           </Col>
         </Row>
       </Container>

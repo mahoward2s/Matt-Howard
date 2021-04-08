@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Switch>
-          <Route exact path={["/","/home"]}> 
+          <Route exact path={["/matthoward","/home"]}> 
           <Home />
           </Route>
           <Route exact path={["/about"]}> 
