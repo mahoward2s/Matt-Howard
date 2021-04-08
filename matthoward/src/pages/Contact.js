@@ -20,7 +20,7 @@ function Contact() {
           <Card
             className="text-center"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+            <Card.Img variant="top" src="images/IMG_Phones.jpg" />
             <Card.Body>
               <Card.Title>Matthew Howard</Card.Title>
               <Card.Text>

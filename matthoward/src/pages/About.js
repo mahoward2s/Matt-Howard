@@ -2,18 +2,19 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 function About() {
     return (
         <div>
             <Container>
-                <Row>
-                    <Col>
+                <Row className="justify-content-center">
                     <h1>About Me</h1>
-                    </Col>
                 </Row>
                 <Row>
-                    <Col></Col>
+                    <Col>
+                    <Image src="images/IMG_Seattle.jpeg" fluid />
+                    </Col>
                     <Col>
                     <p>
                     My name is Matthew Howard and I am a St. Louis native who is a certified Full Stack Web Developer from Washington University-St. Louis. I have an undergraduate degree in Biology with an Emphasis in Biomedical Science and a Masters in Science Education. I have plenty of experience working independtly on projects as well as collaborating on teams. My experience also includes leading and managing projects and researching and analyzing items.  With my art background, I can bring a creative flair to any task required.

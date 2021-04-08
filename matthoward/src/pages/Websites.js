@@ -20,9 +20,9 @@ function Websites() {
             bg="warning"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="images/HoriseonSocialSolutions.gif" />
             <Card.Body>
-              <Card.Title>Code Refractor</Card.Title>
+              <Card.Title>Horiseon Social Solutions</Card.Title>
               <Card.Text>
               This project a client came to me with a website design. I had to connect the images and fix the layout of the website. I linked the navbar with the appropriate section in the website.
                 </Card.Text>

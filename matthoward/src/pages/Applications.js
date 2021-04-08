@@ -22,7 +22,7 @@ function Applications() {
             bg="warning"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="images/Matts_Burgers.gif" />
             <Card.Body>
               <Card.Title>Matt's Burgers</Card.Title>
               <Card.Text>
@@ -41,7 +41,7 @@ function Applications() {
             bg="warning"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="images/MattsQuiz.gif" />
             <Card.Body>
               <Card.Title>Matt's Quiz</Card.Title>
               <Card.Text>
@@ -60,7 +60,7 @@ function Applications() {
             bg="warning"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="images/5DayForecast.gif" />
             <Card.Body>
               <Card.Title>Five Day Forecast</Card.Title>
               <Card.Text>
@@ -79,7 +79,7 @@ function Applications() {
             bg="warning"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="images/MyPlannerAp.gif" />
             <Card.Body>
               <Card.Title>Daily Work Planner</Card.Title>
               <Card.Text>
@@ -98,7 +98,7 @@ function Applications() {
             bg="warning"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="images/PasswordGenerator.gif" />
             <Card.Body>
               <Card.Title>Password Generator</Card.Title>
               <Card.Text>
