@@ -16,7 +16,7 @@ function Applications() {
             <h1>Applications</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
         <Card
             className="text-center"
             bg="warning"
@@ -35,7 +35,7 @@ function Applications() {
             </Card.Body>
           </Card>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Card
             className="text-center"
             bg="warning"
@@ -54,7 +54,7 @@ function Applications() {
             </Card.Body>
           </Card>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
         <Card
             className="text-center"
             bg="warning"
@@ -73,7 +73,7 @@ function Applications() {
             </Card.Body>
           </Card>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
         <Card
             className="text-center"
             bg="warning"
@@ -92,7 +92,7 @@ function Applications() {
             </Card.Body>
           </Card>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
         <Card
             className="text-center"
             bg="warning"
