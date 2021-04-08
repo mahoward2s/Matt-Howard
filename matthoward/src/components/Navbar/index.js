@@ -11,7 +11,7 @@ function NavigationBar() {
   <Navbar.Brand href="/home">Matt Howard</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-    <Nav className="mr-auto">
+    <Nav className="mr-auto" className="justify-content-end">
       <Nav.Link href="/about">About</Nav.Link>
       <NavDropdown title="Portfolio" id="basic-nav-dropdown">
         <NavDropdown.Item href="/collaborations">Collaborations</NavDropdown.Item>

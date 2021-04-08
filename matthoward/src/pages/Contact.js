@@ -44,16 +44,16 @@ function Contact() {
                 <Button
                   href="mailto:<nowiki>mahoward2s@gmail.com?subject=' Contact From Portfolio'"
                   target="_blank"
-                  variant="primary">Email</Button>
+                  variant="secondary">Email</Button>
                 <Button href="tel:3146245710"
-                  variant="info">Phone</Button>
+                  variant="secondary">Phone</Button>
               </ListGroupItem>
               <ListGroupItem>Resume:</ListGroupItem>
               <ListGroupItem>
                 <Button
-                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" variant="primary">Google Doc</Button>
+                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" variant="success">Google Doc</Button>
                 <Button
-                  variant="info"
+                  variant="danger"
                   href="./public/images/Matt_Howard_Resume.pdf"
                   target="_blank" class="btn btn-warning"
                   download><i
