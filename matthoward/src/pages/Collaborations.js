@@ -20,7 +20,7 @@ function Collaborations() {
         bg="warning"
         border="dark"
         style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src="./images/CovidNoJoke.gif" />
             <Card.Body>
                 <Card.Title>Covid Is No Joke</Card.Title>
                 <Card.Text>
@@ -39,7 +39,7 @@ function Collaborations() {
         bg="warning"
         border="dark"
         style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="../public/images/DOGS!.gif" alt="gif of Adopt Don't Shop Ususage"/>
+            <Card.Img variant="top" src="../images/DOGS!.gif" alt="gif of Adopt Don't Shop Ususage"/>
             <Card.Body>
                 <Card.Title>Adopt Don't Shop</Card.Title>
                 <Card.Text>
