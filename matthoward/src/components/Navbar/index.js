@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import "./style.css";
+import { Link } from "react-router-dom";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavigationBar() {
@@ -12,15 +13,15 @@ function NavigationBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
     <Nav className="mr-auto" className="justify-content-end">
-      <Nav.Link href="/about">About</Nav.Link>
+      <Nav.Link to="/about" as={Link}>About</Nav.Link>
       <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/collaborations">Collaborations</NavDropdown.Item>
-        <NavDropdown.Item href="/applications">Applications</NavDropdown.Item>
-        <NavDropdown.Item href="/websites">Websites</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/collaborations">Collaborations</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/applications">Applications</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/websites">Websites</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/personalprojects">Personal Projects</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/personalprojects">Personal Projects</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/contact">Contact</Nav.Link>
+      <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

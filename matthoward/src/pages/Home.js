@@ -12,7 +12,7 @@ function Home () {
                     <h1>Where Science and Art Intertwine</h1>
                 </Row>
                 <Row>
-                <Image src="holder.js/100px250" fluid />
+                <Image src="" fluid />
                 </Row>
             </Container>
         </div>
