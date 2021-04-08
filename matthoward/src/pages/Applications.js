@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 function Applications() {
   return (
     <div>
-      <Container className="justify-content-center">
+      <Container>
         <Row
         className="text-center">
           <Col 

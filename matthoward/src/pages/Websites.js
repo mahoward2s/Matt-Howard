@@ -9,12 +9,12 @@ function Websites() {
   return (
     <div>
       <Container>
-        <Row>
+        <Row className="text-center">
           <Col size="md-12">
             <h1>Websites</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
         <Card
             className="text-center"
             bg="warning"
@@ -22,14 +22,14 @@ function Websites() {
             style={{ width: '40rem' }}>
             <Card.Img variant="top" src="" />
             <Card.Body>
-              <Card.Title>Title</Card.Title>
+              <Card.Title>Code Refractor</Card.Title>
               <Card.Text>
-                Description
+              This project a client came to me with a website design. I had to connect the images and fix the layout of the website. I linked the navbar with the appropriate section in the website.
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="" variant="primary">GitHub</Button>
-              <Button href="" variant="info">Launch</Button>
+              <Button href="https://github.com/mahoward2s/Code-Refractor" variant="primary">GitHub</Button>
+              <Button href="https://mahoward2s.github.io/Code-Refractor/" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>
