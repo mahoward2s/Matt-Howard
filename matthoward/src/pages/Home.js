@@ -8,7 +8,7 @@ function Home () {
     return (
         <div>
             <Container>
-                <Row>
+                <Row className="justify-content-center">
                     <h1>Where Science and Art Intertwine</h1>
                 </Row>
                 <Row>
