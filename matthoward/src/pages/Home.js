@@ -11,7 +11,7 @@ function Home() {
                 </Row>
                 <Row>
                     <Col>
-                        <Image src="images/IMG_Coding.jpg" fluid />
+                        <Image src={process.env.PUBLIC_URL + "/images/IMG_Coding.jpg"} fluid />
                     </Col>
                 </Row>
             </Container>
