@@ -19,7 +19,7 @@ function Applications() {
         <Row className="justify-content-center">
         <Card
             className="text-center"
-            bg="warning"
+            bg="light"
             border="dark"
             style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/Matts_Burgers.gif" />
