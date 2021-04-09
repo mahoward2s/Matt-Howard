@@ -1,11 +1,5 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
-import ListGroupItem from "react-bootstrap/ListGroupItem";
-import Button from "react-bootstrap/Button";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Card, ListGroup, ListGroupItem, Button, Container, Row, Col} from 'react-bootstrap';
 
 function Contact() {
   return (
