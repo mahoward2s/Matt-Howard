@@ -13,15 +13,20 @@ function Contact() {
         <Row className="justify-content-center">
           <Card
             className="text-center"
+            border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="images/IMG_Phones.jpg" />
+            <Card.Img 
+            variant="top" 
+           
+            src="images/IMG_Phones.jpg" />
             <Card.Body>
               <Card.Title>Matthew Howard</Card.Title>
               <Card.Text>
                 Feel Free To Reach Out Anytime.
                 </Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            <ListGroup 
+            className="list-group-flush">
               <ListGroupItem>Profiles:</ListGroupItem>
               <ListGroupItem>
                 <Button
@@ -45,7 +50,7 @@ function Contact() {
               <ListGroupItem>Resume:</ListGroupItem>
               <ListGroupItem>
                 <Button
-                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" variant="success">Google Doc</Button>
+                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" variant="success">Google</Button>
                 <Button
                   variant="danger"
                   href="./public/images/Matt_Howard_Resume.pdf"

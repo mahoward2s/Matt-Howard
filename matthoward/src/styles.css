@@ -1,6 +1,6 @@
 h1 {
     color: black;
-    text-shadow: 2px 2px gray;
+    text-shadow: 1px 1px whitesmoke;
 }
 
 p {
@@ -10,6 +10,7 @@ p {
 
 il {
     font-weight: bold;
+    font-size: large;
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
 
 html, body {
     background-color: blueviolet;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -27,4 +28,24 @@ html, body {
 
 .card {
     margin-bottom: 10px;
+}
+
+.list-group-item {
+    font-weight: 500;
+    font-size: large;
+   
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.card-text {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.card-body{
+    background-color: lightgrey;
 }
