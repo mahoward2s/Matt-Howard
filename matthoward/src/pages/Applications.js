@@ -38,7 +38,7 @@ function Applications() {
         <Row className="justify-content-center">
           <Card
             className="text-center"
-            bg="warning"
+            bg="light"
             border="dark"
             style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/MattsQuiz.gif" />
@@ -57,7 +57,7 @@ function Applications() {
         <Row className="justify-content-center">
         <Card
             className="text-center"
-            bg="warning"
+            bg="light"
             border="dark"
             style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/5DayForecast.gif" />
@@ -76,7 +76,7 @@ function Applications() {
         <Row className="justify-content-center">
         <Card
             className="text-center"
-            bg="warning"
+            bg="light"
             border="dark"
             style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/MyPlannerAp.gif" />
@@ -95,7 +95,7 @@ function Applications() {
         <Row className="justify-content-center">
         <Card
             className="text-center"
-            bg="warning"
+            bg="light"
             border="dark"
             style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/PasswordGenerator.gif" />

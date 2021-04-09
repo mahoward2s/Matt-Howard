@@ -2,3 +2,16 @@ h1 {
     color: black;
     text-shadow: 2px 2px gray;
 }
+
+p {
+    color: black;
+    font-weight: 500;
+}
+
+il {
+    font-weight: bold;
+}
+
+ul {
+    font-weight: 500
+}

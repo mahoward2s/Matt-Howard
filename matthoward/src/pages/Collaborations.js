@@ -1,9 +1,6 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Card, Button, Container, Row, Col } from "react-bootstrap";
+
 
 function Collaborations() {
   return (
@@ -17,7 +14,7 @@ function Collaborations() {
         <Row className="justify-content-center">
         <Card 
         className="text-center" 
-        bg="warning"
+        bg="light"
         border="dark"
         style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/CovidNoJoke.gif" />
@@ -36,7 +33,7 @@ function Collaborations() {
         <Row className="justify-content-center">
         <Card 
         className="text-center" 
-        bg="warning"
+        bg="light"
         border="dark"
         style={{ width: '40rem' }}>
             <Card.Img variant="top" src="images/DOGS!.gif" alt="gif of Adopt Don't Shop Ususage"/>
@@ -55,7 +52,7 @@ function Collaborations() {
         <Row className="justify-content-center">
         <Card 
         className="text-center" 
-        bg="warning"
+        bg="light"
         border="dark"
         style={{ width: '40rem' }}>
             <Card.Img variant="top" src="" alt=""/>

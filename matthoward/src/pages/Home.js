@@ -1,10 +1,8 @@
 import React from "react";
-import Image from 'react-bootstrap/Image'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import { Image, Container, Row, Col } from 'react-bootstrap'
 
 
-function Home () {
+function Home() {
     return (
         <div>
             <Container>
@@ -12,7 +10,9 @@ function Home () {
                     <h1>Where Science and Art Intertwine</h1>
                 </Row>
                 <Row>
-                <Image src="" fluid />
+                    <Col>
+                        <Image src="images/IMG_Coding.jpg" fluid />
+                    </Col>
                 </Row>
             </Container>
         </div>
