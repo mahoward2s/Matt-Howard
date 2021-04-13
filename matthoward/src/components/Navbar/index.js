@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function NavigationBar() {
   return (
 <Navbar bg="dark" variant="dark" expand="lg">
-  <Navbar.Brand href="/home">Matt Howard</Navbar.Brand>
+  <Navbar.Brand to="/home" as={Link}>Matt Howard</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
     <Nav className="mr-auto" className="justify-content-end">
