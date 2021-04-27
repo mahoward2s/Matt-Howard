@@ -55,17 +55,17 @@ function Collaborations() {
         bg="light"
         border="dark"
         style={{ width: '40rem' }}>
-            <Card.Img variant="top" src="" alt=""/>
+            <Card.Img variant="top" src="images/BrewCrew.gif" alt="gif of Brew Crew App Ususage"/>
             <Card.Body>
                 <Card.Title>Brew Crew</Card.Title>
                 <Card.Text>
-                Application is in development.
+                Brew Crew is an application that allows a user to search either by city, state, or name for breweries.  The user is then able to click on the icon for directions from their current location.  Then can click on the phone icon to contact the brewery.  Also, Lyft if associated with the application in case a user becomes too intoxicated to drive they can contact Lyft for a sober ride. 
                 Collaborating with Msas12, Kmsaunders, Anniemcfarland7 and Sarah Pietz
                 </Card.Text>
             </Card.Body>
             <Card.Body>
                 <Button href="https://github.com/Msas12/brew-crew" variant="primary">GitHub</Button>
-                <Button href="" variant="info">Launch</Button>
+                <Button href="https://brew-crew-kamms.herokuapp.com" variant="info">Launch</Button>
             </Card.Body>
         </Card>
         </Row>
