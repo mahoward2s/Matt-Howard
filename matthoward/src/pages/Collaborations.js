@@ -22,7 +22,9 @@ function Collaborations() {
                 <Card.Title>Brew Crew</Card.Title>
                 <Card.Text>
                 Brew Crew is an application that allows a user to search either by city, state, or name for breweries.  The user is then able to click on the icon for directions from their current location.  Then can click on the phone icon to contact the brewery.  Also, Lyft if associated with the application in case a user becomes too intoxicated to drive they can contact Lyft for a sober ride. 
-                Collaborating with Msas12, Kmsaunders, Anniemcfarland7 and Sarah Pietz
+                </Card.Text>
+                <Card.Text>
+                Collaborated with Msas12, Kmsaunders, Anniemcfarland7 and Sarah Pietz
                 </Card.Text>
             </Card.Body>
             <Card.Body>
@@ -41,7 +43,10 @@ function Collaborations() {
             <Card.Body>
                 <Card.Title>Covid Is No Joke</Card.Title>
                 <Card.Text>
-                Application to provide up to date Covid numbers and jokes of the day. You are able to search different states in the United States. These searches are saved to local storage and update daily. You can also get daily jokes to lighten the mood and your day. Worked with Msas12 and Kmsaunders7 to create this application.
+                Application to provide up to date Covid numbers and jokes of the day. You are able to search different states in the United States. These searches are saved to local storage and update daily. You can also get daily jokes to lighten the mood and your day. 
+                </Card.Text>
+                <Card.Text>
+                Collaborated with Msas12 and Kmsaunders
                 </Card.Text>
             </Card.Body>
             <Card.Body>
@@ -61,6 +66,9 @@ function Collaborations() {
                 <Card.Title>Adopt Don't Shop</Card.Title>
                 <Card.Text>
                 Adopt Don't Shop is a dog adoption agency website. Allows users to view available dogs to adopt, including pictures using multer. Included is a success story page, where users can write about a happy adoption story. When admin logs into the website/app they have the opportunity to upload images of available dogs and provde information about them before the dogs get posted for everyone to see and adopt. There are a lot of things that we would like to incorporate going forward.
+                </Card.Text>
+                <Card.Text>
+                Collaborated with Msas12 and Kmsaunders
                 </Card.Text>
             </Card.Body>
             <Card.Body>
