@@ -15,7 +15,7 @@ function About() {
                     </Col>
                     <Col>
                     <p>
-                    My name is Matthew Howard and I am a St. Louis native who is a certified Full Stack Web Developer from Washington University-St. Louis. I have an undergraduate degree in Biology with an Emphasis in Biomedical Science and a Masters in Science Education. I have plenty of experience working independtly on projects as well as collaborating on teams. My experience also includes leading and managing projects and researching and analyzing items.  With my art background, I can bring a creative flair to any task required.
+                    My name is Matthew Howard and I am a St. Louis native who is a Full Stack Web Developer from Washington University-St. Louis. I have an undergraduate degree in Biology with an Emphasis in Biomedical Science and a Masters in Science Education. I have plenty of experience working independtly on projects as well as collaborating on teams. My experience also includes leading and managing projects and researching and analyzing items.  With my art background, I can bring a creative flair to any task required.
                     </p>
                     <p>
                     My hobbies include collecting sports memorabilia, traveling, hiking, rock climbing, playing bass guitar, painting/drawing, and just overall creating things.

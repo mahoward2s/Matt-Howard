@@ -26,8 +26,8 @@ function Applications() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="https://github.com/mahoward2s/Burger" variant="primary">GitHub</Button>
-              <Button href="https://limitless-eyrie-37289.herokuapp.com/" variant="info">Launch</Button>
+              <Button href="https://github.com/mahoward2s/Burger" target="_blank" variant="primary">GitHub</Button>
+              <Button href="https://limitless-eyrie-37289.herokuapp.com/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>
@@ -45,8 +45,8 @@ function Applications() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="https://github.com/mahoward2s/Timed-Code-Quiz" variant="primary">GitHub</Button>
-              <Button href="https://mahoward2s.github.io/Timed-Code-Quiz/" variant="info">Launch</Button>
+              <Button href="https://github.com/mahoward2s/Timed-Code-Quiz" target="_blank" variant="primary">GitHub</Button>
+              <Button href="https://mahoward2s.github.io/Timed-Code-Quiz/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>
@@ -64,8 +64,8 @@ function Applications() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="https://github.com/mahoward2s/Five-Day-Forecast" variant="primary">GitHub</Button>
-              <Button href="https://mahoward2s.github.io/Five-Day-Forecast/" variant="info">Launch</Button>
+              <Button href="https://github.com/mahoward2s/Five-Day-Forecast" target="_blank" variant="primary">GitHub</Button>
+              <Button href="https://mahoward2s.github.io/Five-Day-Forecast/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>
@@ -83,8 +83,8 @@ function Applications() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="https://github.com/mahoward2s/My-Daily-Work-Planner" variant="primary">GitHub</Button>
-              <Button href="https://mahoward2s.github.io/My-Daily-Work-Planner/" variant="info">Launch</Button>
+              <Button href="https://github.com/mahoward2s/My-Daily-Work-Planner" target="_blank" variant="primary">GitHub</Button>
+              <Button href="https://mahoward2s.github.io/My-Daily-Work-Planner/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>
@@ -102,8 +102,8 @@ function Applications() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="ttps://github.com/mahoward2s/Password-Generator" variant="primary">GitHub</Button>
-              <Button href="https://mahoward2s.github.io/Password-Generator/" variant="info">Launch</Button>
+              <Button href="ttps://github.com/mahoward2s/Password-Generator" target="_blank" variant="primary">GitHub</Button>
+              <Button href="https://mahoward2s.github.io/Password-Generator/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>

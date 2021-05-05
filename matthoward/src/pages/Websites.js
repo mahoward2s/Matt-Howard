@@ -24,8 +24,8 @@ function Websites() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Button href="https://github.com/mahoward2s/Code-Refractor" variant="primary">GitHub</Button>
-              <Button href="https://mahoward2s.github.io/Code-Refractor/" variant="info">Launch</Button>
+              <Button href="https://github.com/mahoward2s/Code-Refractor" target="_blank" variant="primary">GitHub</Button>
+              <Button href="https://mahoward2s.github.io/Code-Refractor/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
           </Card>
         </Row>

@@ -28,8 +28,8 @@ function Collaborations() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-                <Button href="https://github.com/Msas12/brew-crew" variant="primary">GitHub</Button>
-                <Button href="https://brew-crew-kamms.herokuapp.com" variant="info">Launch</Button>
+                <Button href="https://github.com/Msas12/brew-crew" target="_blank" variant="primary">GitHub</Button>
+                <Button href="https://brew-crew-kamms.herokuapp.com" target="_blank" variant="info">Launch</Button>
             </Card.Body>
         </Card>
         </Row>
@@ -50,8 +50,8 @@ function Collaborations() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-                <Button href="https://github.com/Msas12/COVID-Is-No-Joke-" variant="primary">GitHub</Button>
-                <Button href="https://msas12.github.io/COVID-Is-No-Joke-/" variant="info">Launch</Button>
+                <Button href="https://github.com/Msas12/COVID-Is-No-Joke-" target="_blank" variant="primary">GitHub</Button>
+                <Button href="https://msas12.github.io/COVID-Is-No-Joke-/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
         </Card>
         </Row>
@@ -72,8 +72,8 @@ function Collaborations() {
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-                <Button href="https://github.com/Msas12/Project-2" variant="primary">GitHub</Button>
-                <Button href="https://project2msksmh.herokuapp.com/" variant="info">Launch</Button>
+                <Button href="https://github.com/Msas12/Project-2" target="_blank" variant="primary">GitHub</Button>
+                <Button href="https://project2msksmh.herokuapp.com/" target="_blank" variant="info">Launch</Button>
             </Card.Body>
         </Card>
         </Row>
