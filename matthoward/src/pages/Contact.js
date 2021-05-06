@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, ListGroup, ListGroupItem, Button, Container, Row, Col} from 'react-bootstrap';
+import { Card, ListGroup, ListGroupItem, Button, Container, Row, Col } from 'react-bootstrap';
 
 function Contact() {
   return (
@@ -15,18 +15,18 @@ function Contact() {
             className="text-center"
             border="dark"
             style={{ width: '40rem' }}>
-            <Card.Img 
-            variant="top" 
-           
-            src="images/IMG_Phones.jpg" />
+            <Card.Img
+              variant="top"
+
+              src="images/IMG_Phones.jpg" />
             <Card.Body>
               <Card.Title>Matthew Howard</Card.Title>
               <Card.Text>
                 Feel Free To Reach Out Anytime.
                 </Card.Text>
             </Card.Body>
-            <ListGroup 
-            className="list-group-flush">
+            <ListGroup
+              className="list-group-flush">
               <ListGroupItem>Profiles:</ListGroupItem>
               <ListGroupItem>
                 <Button
@@ -50,13 +50,31 @@ function Contact() {
               <ListGroupItem>Resume:</ListGroupItem>
               <ListGroupItem>
                 <Button
-                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" variant="success">Google</Button>
+                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" 
+                  target="_blank"
+                  variant="success">Google</Button>
                 <Button
                   variant="danger"
                   href="./public/images/Matt_Howard_Resume.pdf"
                   target="_blank" class="btn btn-warning"
                   download><i
                     class="fa fa-download"></i>PDF</Button>
+              </ListGroupItem>
+              <ListGroupItem>Social Media:</ListGroupItem>
+              <ListGroupItem>Instagram</ListGroupItem>
+              <ListGroupItem>
+                <Button
+                  href="https://www.instagram.com/mhlth282" 
+                  target="_blank"
+                  variant="dark">Personal</Button>
+                <Button
+                  href="https://www.instagram.com/depression.art.inc" 
+                  target="_blank"
+                  variant="dark">Art</Button>
+                <Button
+                  href="https://www.instagram.com/bluescollector2.0" 
+                  target="_blank"
+                  variant="dark">Sports</Button>
               </ListGroupItem>
             </ListGroup>
           </Card>

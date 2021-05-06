@@ -1,6 +1,7 @@
 h1 {
     color: black;
-    text-shadow: 1px 1px whitesmoke;
+    text-shadow: 3px 3px whitesmoke;
+    font-size: 70px;
 }
 
 p {
@@ -18,7 +19,7 @@ ul {
 }
 
 html, body {
-    background-color: blueviolet;
+    background-color: #cccccc;
     margin-bottom: 30px;
 }
 
@@ -47,5 +48,5 @@ html, body {
 }
 
 .card-body{
-    background-color: lightgrey;
+    background-color: white;
 }
