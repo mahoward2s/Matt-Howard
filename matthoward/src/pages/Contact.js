@@ -17,7 +17,6 @@ function Contact() {
             style={{ width: '40rem' }}>
             <Card.Img
               variant="top"
-
               src="images/IMG_Phones.jpg" />
             <Card.Body>
               <Card.Title>Matthew Howard</Card.Title>
@@ -50,7 +49,7 @@ function Contact() {
               <ListGroupItem>Resume:</ListGroupItem>
               <ListGroupItem>
                 <Button
-                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing" 
+                  href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing"
                   target="_blank"
                   variant="success">Google</Button>
                 <Button
@@ -64,20 +63,74 @@ function Contact() {
               <ListGroupItem>Instagram</ListGroupItem>
               <ListGroupItem>
                 <Button
-                  href="https://www.instagram.com/mhlth282" 
+                  href="https://www.instagram.com/mhlth282"
                   target="_blank"
                   variant="dark">Personal</Button>
                 <Button
-                  href="https://www.instagram.com/depression.art.inc" 
+                  href="https://www.instagram.com/depression.art.inc"
                   target="_blank"
                   variant="dark">Art</Button>
                 <Button
-                  href="https://www.instagram.com/bluescollector2.0" 
+                  href="https://www.instagram.com/bluescollector2.0"
                   target="_blank"
                   variant="dark">Sports</Button>
               </ListGroupItem>
             </ListGroup>
           </Card>
+        </Row>
+        <Row>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </div>
