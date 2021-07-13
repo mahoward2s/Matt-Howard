@@ -22,7 +22,7 @@ function Contact() {
               <Card.Title>Matthew Howard</Card.Title>
               <Card.Text>
                 Feel Free To Reach Out Anytime.
-                </Card.Text>
+              </Card.Text>
             </Card.Body>
             <ListGroup
               className="list-group-flush">
@@ -80,10 +80,12 @@ function Contact() {
         </Row>
         <Row>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card
+              className="text-center"
+              style={{ width: '18rem' }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Profiles:</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
@@ -93,10 +95,12 @@ function Contact() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card 
+            className="text-center"
+            style={{ width: '18rem' }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Contact:</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
@@ -106,10 +110,12 @@ function Contact() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card 
+            className="text-center"
+            style={{ width: '18rem' }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Resume:</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
@@ -119,10 +125,12 @@ function Contact() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card 
+            className="text-center"
+            style={{ width: '18rem' }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Social Media:</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
