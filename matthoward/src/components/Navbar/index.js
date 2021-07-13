@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavigationBar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
       <Navbar.Brand to="/home" as={Link}>
         <img
         src="images/DesignLogo.jpg"
         width="40"
         height="40"
         className="designLogo"
-        alt="Six Cross Desgin Logo"
+        alt="Six Crosses Desgin Logo"
         />
         Matt Howard
       </Navbar.Brand>
