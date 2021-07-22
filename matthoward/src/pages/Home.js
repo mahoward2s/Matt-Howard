@@ -14,6 +14,9 @@ function Home() {
                         <Image src={process.env.PUBLIC_URL + "/images/IMG_Coding.jpg"} fluid />
                     </Col>
                 </Row>
+                <Row className="justify-content-center">
+                <h1>To Design The Future</h1>
+                </Row>
             </Container>
         </div>
     );
