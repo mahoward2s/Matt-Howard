@@ -19,7 +19,9 @@ function Contact() {
             style={{ width: '40rem' }}>
             <Card.Img
               variant="top"
-              src="images/IMG_Phones.jpg" />
+              src="images/IMG_Phones.jpg" 
+              alt="image of payphones"
+              />
             <Card.Body>
               <Card.Title>Matthew Howard</Card.Title>
               <Card.Text>
@@ -36,12 +38,13 @@ function Contact() {
             <Card
               className="text-center"
               style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top"
+              alt="image of github profile"
+              src="images/emojime.jpeg"/>
               <Card.Body>
                 <Card.Title>Profiles:</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  Below are my various profiles.
                 </Card.Text>
                 <Button
                   href="https://github.com/mahoward2s"
@@ -61,7 +64,9 @@ function Contact() {
             <Card
               className="text-center"
               style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top"
+              alt="Call Me Image"
+              src="images/CallMe.png"/>
               <Card.Body>
                 <Card.Title>Contact:</Card.Title>
                 <Card.Text>
@@ -84,7 +89,9 @@ function Contact() {
             <Card
               className="text-center"
               style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" 
+              alt="Image of SEMO, LU, and WUSTL"
+              src="images/Colleges.png"/>
               <Card.Body>
                 <Card.Title>Resume:</Card.Title>
                 <Card.Text>
@@ -110,12 +117,14 @@ function Contact() {
             <Card
               className="text-center"
               style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img 
+              variant="top" 
+              alt="image of matt with dalmatian"
+              src="images/FacebookProfile.jpg"/>
               <Card.Body>
                 <Card.Title>Social Media:</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  Check out my various Social Media accounts
                 </Card.Text>
                 <Button
                   href="https://www.instagram.com/mhlth282"
@@ -131,6 +140,11 @@ function Contact() {
                   href="https://www.instagram.com/bluescollector2.0"
                   target="_blank"
                   variant="dark">Sports
+                </Button>
+                <Button
+                  href="https://www.facebook.com/mahoward2s/"
+                  target="_blank"
+                  variant="dark">Facebook
                 </Button>
               </Card.Body>
             </Card>
