@@ -2,20 +2,15 @@ import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import "./style.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function NavigationBar() {
   return (
     <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
       <Navbar.Brand to="/home" as={Link}>
-        <img
-        src="images/DesignLogo.jpg"
-        width="40"
-        height="40"
-        className="designLogo"
-        alt="Six Crosses Desgin Logo"
-        />
-        Matt Howard
+        <FontAwesomeIcon icon={faHome} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
