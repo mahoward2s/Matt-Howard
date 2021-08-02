@@ -2,7 +2,8 @@ import React from "react";
 import { Card, ListGroup, Button, Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faLinkedin, faGoogle, faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
-import {faEnvelopeOpenText, faPhoneVolume, faFilePdf} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpenText, faPhoneVolume, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import './contactStyle.css'
 
 function Contact() {
   return (
@@ -49,16 +50,17 @@ function Contact() {
                   Below are my various profiles.
                 </Card.Text>
                 <Button
+                 className="gitHubButton"
                   href="https://github.com/mahoward2s"
                   target="_blank"
                   variant="primary">
-                    <FontAwesomeIcon icon={faGithubSquare} />
+                  <FontAwesomeIcon icon={faGithubSquare} />
                 </Button>
                 <Button
                   href="https://www.linkedin.com/in/matthew-h-974498108/"
                   target="_blank"
                   variant="info">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </Button>
               </Card.Body>
             </Card>
@@ -80,12 +82,12 @@ function Contact() {
                   href="mailto:<nowiki>mahoward2s@gmail.com?subject=' Contact From Portfolio'"
                   target="_blank"
                   variant="secondary">
-                    <FontAwesomeIcon icon={faEnvelopeOpenText} />
+                  <FontAwesomeIcon icon={faEnvelopeOpenText} />
                 </Button>
                 <Button
                   href="tel:3146245710"
                   variant="secondary">
-                    <FontAwesomeIcon icon={faPhoneVolume} />
+                  <FontAwesomeIcon icon={faPhoneVolume} />
                 </Button>
               </Card.Body>
             </Card>
@@ -107,7 +109,7 @@ function Contact() {
                   href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing"
                   target="_blank"
                   variant="success">
-                    <FontAwesomeIcon icon={faGoogle} />
+                  <FontAwesomeIcon icon={faGoogle} />
                 </Button>
                 <Button
                   variant="danger"
@@ -115,7 +117,7 @@ function Contact() {
                   target="_blank" class="btn btn-warning"
                   download><i
                     class="fa fa-download"></i>
-                    <FontAwesomeIcon icon={faFilePdf} />
+                  <FontAwesomeIcon icon={faFilePdf} />
                 </Button>
               </Card.Body>
             </Card>
@@ -138,28 +140,28 @@ function Contact() {
                   href="https://www.instagram.com/mhlth282"
                   target="_blank"
                   variant="dark">
-                    <FontAwesomeIcon icon={faInstagramSquare} />
-                    Personal
+                  <FontAwesomeIcon icon={faInstagramSquare} />
+                  Personal
                 </Button>
                 <Button
                   href="https://www.instagram.com/depression.art.inc"
                   target="_blank"
                   variant="dark">
-                    <FontAwesomeIcon icon={faInstagramSquare} />
-                    Art
+                  <FontAwesomeIcon icon={faInstagramSquare} />
+                  Art
                 </Button>
                 <Button
                   href="https://www.instagram.com/bluescollector2.0"
                   target="_blank"
                   variant="dark">
-                    <FontAwesomeIcon icon={faInstagramSquare} />
-                    Sports
+                  <FontAwesomeIcon icon={faInstagramSquare} />
+                  Sports
                 </Button>
                 <Button
                   href="https://www.facebook.com/mahoward2s/"
                   target="_blank"
                   variant="dark">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  <FontAwesomeIcon icon={faFacebookSquare} />
                 </Button>
               </Card.Body>
             </Card>
