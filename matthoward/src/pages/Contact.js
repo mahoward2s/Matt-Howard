@@ -35,8 +35,16 @@ function Contact() {
             </ListGroup>
           </Card>
         </Row>
-        <Row>
-          <Col>
+        <Row
+          style={{
+            padding: '15px 15px'
+          }}
+        >
+          <Col
+            style={{
+              padding: '15px 120px'
+            }}
+          >
             <Card
               className="text-center"
               border="dark"
@@ -49,11 +57,12 @@ function Contact() {
                 <Button
                   className="gitHubButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: '#000000' }}
+                    backgroundColor: '#000000'
+                  }}
                   href="https://github.com/mahoward2s"
                   target="_blank"
                 >
@@ -62,11 +71,12 @@ function Contact() {
                 <Button
                   className="linkedInButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: '#0a66c2' }}
+                    backgroundColor: '#0a66c2'
+                  }}
                   href="https://www.linkedin.com/in/matthew-h-974498108/"
                   target="_blank"
                 >
@@ -75,7 +85,11 @@ function Contact() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col
+            style={{
+              padding: '15px 15px'
+            }}
+          >
             <Card
               className="text-center"
               border="dark"
@@ -88,11 +102,12 @@ function Contact() {
                 <Button
                   className="emailButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: '#1b8dff' }}
+                    backgroundColor: '#1b8dff'
+                  }}
                   href="mailto:<nowiki>mahoward2s@gmail.com?subject=' Contact From Portfolio'"
                   target="_blank"
                 >
@@ -101,11 +116,12 @@ function Contact() {
                 <Button
                   className="phoneButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: '#1abe22' }}
+                    backgroundColor: '#1abe22'
+                  }}
                   href="tel:3146245710"
                 >
                   <FontAwesomeIcon icon={faPhoneVolume} />
@@ -113,7 +129,17 @@ function Contact() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+        </Row>
+        <Row
+          style={{
+            padding: '15px 15px'
+          }}
+        >
+          <Col
+            style={{
+              padding: '15px 120px'
+            }}
+          >
             <Card
               className="text-center"
               border="dark"
@@ -126,11 +152,12 @@ function Contact() {
                 <Button
                   className='googleDocResumeButton'
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: '#3b0ac2' }}
+                    backgroundColor: '#3b0ac2'
+                  }}
                   href="https://docs.google.com/document/d/1PRWn6gj7CNjXeJ8znhUkrbMLis3eGa6DaqXzQsRpPe0/edit?usp=sharing"
                   target="_blank"
                 >
@@ -142,18 +169,23 @@ function Contact() {
                   target="_blank"
                   class="btn btn-danger"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: 'rgb(163, 9, 9)' }}
+                    backgroundColor: 'rgb(163, 9, 9)'
+                  }}
                   download><i class="fa fa-download"></i>
                   <FontAwesomeIcon icon={faFilePdf} />
                 </Button>
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col
+            style={{
+              padding: '15px'
+            }}
+          >
             <Card
               className="text-center"
               border="dark"
@@ -167,11 +199,12 @@ function Contact() {
                 <Button
                   className="personalInstagramButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '25px',
-                    backgroundColor: '#dd0695' }}
+                    backgroundColor: '#dd0695'
+                  }}
                   href="https://www.instagram.com/mhlth282"
                   target="_blank"
                 >
@@ -181,11 +214,12 @@ function Contact() {
                 <Button
                   className="artInstagramButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '25px',
-                    backgroundColor: '#dd0695' }}
+                    backgroundColor: '#dd0695'
+                  }}
                   href="https://www.instagram.com/depression.art.inc"
                   target="_blank"
                 >
@@ -195,11 +229,12 @@ function Contact() {
                 <Button
                   className="sportsInstagramButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '25px',
-                    backgroundColor: '#dd0695' }}
+                    backgroundColor: '#dd0695'
+                  }}
                   href="https://www.instagram.com/bluescollector2.0"
                   target="_blank"
                 >
@@ -209,11 +244,12 @@ function Contact() {
                 <Button
                   className="faceBookButton"
                   bsStyle='default'
-                  style={{ 
+                  style={{
                     borderRadius: '8px',
                     padding: '1px 8px',
                     fontSize: '35px',
-                    backgroundColor: '#3578e5' }}
+                    backgroundColor: '#3578e5'
+                  }}
                   href="https://www.facebook.com/mahoward2s/"
                   target="_blank"
                 >
