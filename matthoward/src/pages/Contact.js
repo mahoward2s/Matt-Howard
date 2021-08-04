@@ -42,7 +42,7 @@ function Contact() {
         >
           <Col
             style={{
-              padding: '15px 120px'
+              padding: '15px 110px'
             }}
           >
             <Card
@@ -137,7 +137,7 @@ function Contact() {
         >
           <Col
             style={{
-              padding: '15px 120px'
+              padding: '15px 110px'
             }}
           >
             <Card
